@@ -7,7 +7,381 @@
 </head>
 <body>
     <div id="root"></div>
+    <div id="topnav" style="background-color: transparent;">
+        <a href="#home" title="Home"><img id="small-logo" width="36" height="36" src="Images/Logo Square Transparent.png" alt="Anwesh Gangula - Logo"></a>
+        <nav class="topnav-links">
+            <a class="active" href="#home" title="Home">Home</a>
+            <a href="#about-me" title="About Me">About Me</a>
+            <a href="#Experience" title="Experience">Experience</a>
+            <a href="#Skills" title="Skills">Skills</a>
+        </nav>
+    </div>
+
+    <div class="center page" id="home">
+        <div>
+            <img id="logo" width="150" height="150" src="Images/Logo Square Transparent.png" alt="Anwesh Gangula - Logo">
+            <div class="logo-shadow"></div>
+            <h1>Anwesh Gangula</h1>
+            <p>Spirituality is just science we don't understand yet.</p>
+        </div>
+    </div>
+
+    <!--<p>Scroll Down</p>-->
+    <a href="#about-me" title="Next Section">
+        <div id="arrow-down"></div>
+    </a>
+    <a href="#" title="Go to Top">
+        <div id="arrow-up"></div>
+    </a>
+    <!--href="#" refers to top - jump to top -->
+
+    <div id="about-me" class="center page">
+        <h1>About Me</h1>
+        <p>Architect by Education, BIM Engineer by Profession, Tech/Data Enthusiast by Hobby</p>
+        <div class="title-shadow"></div>
+        <div class="my-summary">
+            <div>
+                <img id="photo" width="150" height="150" src="Images/Anwesh%20Gangula.png" alt="Anwesh Gangula - Photo">
+                <div class="logo-shadow"></div>
+            </div>
+            <p style="text-align: left">
+                I’m an Experienced Engineer with a demonstrated history of working in the construction industry as a VDC Engineer for 3 years. I love solving complex problems often trying not to limit myself with available tools. I believe that there is a solution to every problem, you just have to know where to look for. And that's what enables me in staying committed to learning and self-development so that I can consistently achieve better results. This has helped me in coming up with innovative ideas that helped me personally as well as professionally in quickly adapting to latest technologies and finding opportunities to implement them.
+                <br><br>
+                <b>Three Words about me:</b><br>
+                Technophilic, Efficient, Innovative
+            </p>
+        </div>
+        <div class="distribute" id="details">
+            <div>
+                <h4>Name</h4>
+                <p>Anwesh Gangula</p>
+            </div>
+            <div>
+                <h4>Age</h4>
+                <p>24</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <a href="mailto:gangulaanwesh@gmail.com">gangulaanwesh@gmail.com</a>
+            </div>
+            <div>
+                <h4>Location</h4>
+                <p>Pune, India</p>
+            </div>
+        </div>
+        <h2>Languages</h2>
+        <div class="distribute" id="Languages">
+            <div>
+                <h4>Telugu</h4>
+                <div class="rating-box">
+                    <div class="rating" style="width:100%;"></div>
+                </div>
+                <p>Mother Tongue</p>
+            </div>
+            <div>
+                <h4>English</h4>
+                <div class="rating-box">
+                    <div class="rating" style="width:80%;"></div>
+                </div>
+            </div>
+            <div>
+                <h4>Hindi</h4>
+                <div class="rating-box">
+                    <div class="rating" style="width:80%;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="timeline" class="center page">
+        <h1>Timeline</h1>
+        <div class="timeline-legend">
+            <div class="distribute">
+                <i class="fas fa-graduation-cap"></i>
+                <h4 style="color:var(--default-text-color)">Education</h4>
+            </div>
+            <div class="distribute">
+                <i class="fas fa-briefcase"></i>
+                <h4 style="color: var(--dark-text-clr);">Experience</h4>
+            </div>
+        </div>
+        <div class="title-shadow"></div>
+
+        <div id="parent-timeline">
+            <div id="timeline-length"></div>
+            <div class="timeline-elements">
+                <div class="timeline-narayana" style="right: 0px;">
+                    <div>
+                        <h4>Narayana Junior College</h4>
+                        <p>Intermediate</p>
+                        <p>2010-2012</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar edu-icon" id="NJC-bar"></div>
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-kgp" style="right: 0px;">
+                    <div>
+                        <h4>IIT Kharagpur</h4>
+                        <p>B.Arch</p>
+                        <p>2012-2017</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar edu-icon" id="iit-bar"></div>
+                        <!-- <i class="fas fa-graduation-cap"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-sandhi" style="right: 0px;">
+                    <div>
+                        <h4>Internship</h4>
+                        <p>SANDHI</p>
+                        <p>May 2014 - Jun 2014</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar work-icon" id="sandhi-bar"></div>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-haaus" style="right: 0px;">
+                    <div>
+                        <h4>Internship</h4>
+                        <p>Design Haaus</p>
+                        <p>May 2015 - Jul 2015</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar work-icon" id="dh-bar"></div>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-nude" style="right: 0px;">
+                    <div>
+                        <h4>Internship</h4>
+                        <p>Nu. De</p>
+                        <p>Jan 2016 - Jul 2016</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar work-icon" id="nude-bar"></div>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-vconstruct1" style="right: 0px;">
+                    <div>
+                        <h4>VDC Engineer</h4>
+                        <p>vConstruct</p>
+                        <p>Aug 2017 - Mar 2020</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar work-icon" id="VC-bar1"></div>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                </div>
+                <div class="timeline-vconstruct2" style="right: 0px;">
+                    <div>
+                        <h4>Sr. Proj. Engineer</h4>
+                        <p>vConstruct</p>
+                        <p>Mar 2020 - present</p>
+                    </div>
+                    <div class="v-bar-offset">
+                        <div class="v-bar work-icon" id="VC-bar2"></div>
+                        <!-- <i class="fas fa-briefcase"></i> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Experience" class="center page">
+        <h1>Experience</h1>
+        <div class="title-shadow"></div>
+        <div id="career-details">
+            <div id="vconstruct">
+                <div class="company-roles">
+                    <h3>vConstruct</h3>
+                    <div>
+                        <h4>Sr. Project Engineer - VDC</h4>
+                        <p>Mar 2020 - Present</p>
+                    </div>
+                    <div>
+                        <h4>VDC Engineer</h4>
+                        <p>Aug 2017 - Mar 2020</p>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        I have Joined vConstruct as a BIM Engineer right after my graduation. Although my designation in vConstruct was an Engineer, I have had the chance to play many other roles with the help of various tasks and opportunities I was given.
+                    </p>
+                    <ul>
+                        <li>Helped the Software Development with ideas & suggestion for a plugin development project.</li>
+                        <li>Generated Power BI Dashboards for various Virtual Design and Construction (VDC) Services from different sources(Web, API...) that provide insights to understand the project </li>
+                        <li>Trained and helped the team in creating Dynamo Scripts to provide optimized BIM workflows</li>
+                        <li>Created Power BI Dashboards to help taking informed business decisions</li>
+                        <li> Created a full-fledged solution for a ERP & CRM tool with multiple modules (Opportunity Tracking, Invoicing, Resource Planning etc..) for the company using Google Sheets</li>
+                        <li>As a team leader, I have successfully led more than 6 BIM Coordination projects</li>
+                        <li>Innovative solution to simplify resource planning using Excel which was later expanded and used by the whole company.</li>
+                        <li>Optimized existing workflows by creating scripts to automate repetitive steps in the process and help improve the productivity of the team.</li>
+                    </ul>
+                    <div class="distribute company_info">
+                        <h4>Pune, India</h4>
+                        <h4><a href="https://vConstruct.com" target="_blank" rel="noreferrer">https://vConstruct.com</a></h4>
+                    </div>
+                </div>
+            </div>
+            <div id="nude-offices">
+                <div class="company-roles">
+                    <h3>Nu. De</h3>
+                    <div>
+                        <h4>Architectural Internship</h4>
+                        <p>Jan 2016 - Jul 2016</p>
+                    </div>
+                </div>
+                <div>
+                    <p>
+                        Well, first let me answer your question, It stands for "<b>Nu</b>ru Karim <b>De</b>sign".
+                        <br> <br>
+                        The first time I heard the firm name, it cracked me up and that's probably one of the reasons I decided to go here. I really liked the bold statement the architect was giving along with a meaning to the name.
+                    </p>
+                    <div class="distribute company_info">
+                        <h4>Bangalore, India</h4>
+                        <h4><a href="http://www.nudeoffices.com/" target="_blank" rel="noreferrer">http://www.nudeoffices.com</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Skills" class="center page">
+        <h1>Skills</h1>
+        <div class="title-shadow"></div>
+        <div>
+            <progress class="progress-legend" value="66" max="100"></progress>
+            <div id="skill-rating-legend" class="distribute">
+                <p>Rookie</p>
+                <p>Beginner</p>
+                <p>Intermediate</p>
+                <p>Skilled</p>
+                <p>Advanced</p>
+            </div>
+        </div>
+        <div class="Skill-Categories distribute">
+            <p>Computational Modeling</p>
+            <p>BIM</p>
+            <p>Architecture</p>
+            <p>Data Science</p>
+            <p>Data Visualization</p>
+            <p>Programming</p>
+            <p>Web Development</p>
+            <p>MS Power Platform</p>
+            <p>Autodesk BIM 360</p>
+            <p>Automation</p>
+            <p>Architecture</p>
+            <p>Graphic Design</p>
+            <p>VFX</p>
+        </div>
+        <h2>Tools</h2>
+        <div id="tools">
+            <div>
+                <p>BIM 360 Glue</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Autodesk Revit</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Autodesk AutoCAD</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Autodesk Dynamo</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Adobe XD</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Microsoft Power BI</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Microsoft Power Automate</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Microsoft Excel</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>O365 Suite</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Microsoft Access</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>HTML</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>CSS</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Rhino 3D</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Grasshopper 3D - Rhino</p>
+                <progress value="66" max="100"></progress>
+            </div>
+            <div>
+                <p>Adobe Photoshop</p>
+                <progress value="66" max="100"></progress>
+            </div>
+
+        </div>
+        <br>
+        <div id="other-skills">
+            <h3 style="text-align: left;">Others</h3>
+            <div class="Skill-Categories distribute">
+                <p>Blender</p>
+                <p>Adobe After Effects</p>
+                <p>JavaScript</p>
+                <p>Visual Studio</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="social-media">
+            <h2>Social Medial Links</h2>
+            <span class="ag fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x" style="color:#dd4b39;"></i>
+                <a href="mailto:gangulaanwesh@gmail.com" title="Gmail: Anwesh Gangula"><i class="fas fa-envelope fa-stack-1x fa-inverse"></i></a>
+            </span>
+            <span class="ag fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x" style="color:#007bb5;"></i>
+                <a href="https://www.linkedin.com/in/AnweshGangula/" title="Linkedin - Anwesh Gangula"><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></a>
+            </span>
+            <span class="ag fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x" style="color:#bb0000;"></i>
+                <a href="https://www.youtube.com/channel/UCorhgcAEDYCP6ShOXYX4Kew" title="YouTube Channel - Guru-G"><i class="fab fa-youtube fa-stack-1x fa-inverse"></i></a>
+            </span>
+            <span class="ag fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x" style="color:#fb8f3d;"></i>
+                <a href="http://www.guru--g.blogspot.com/" title="Blog: Guru-G"><i class="fab fa-blogger fa-stack-1x fa-inverse"></i></a>
+            </span>
+        </div>
+        <div>
+            <h4 style="margin: 30px 0 0;">Made with <i class="fa fa-heart" aria-hidden="true"></i> by Anwesh Gangula</h4>
+        </div>
+        <p style=" color: black;"><small>This website is an attempt to re-create the <a href="https://xd.adobe.com/view/7fb36178-5dea-474c-9a4b-11c1ba8021e0-2ae0/" target="_blank" rel="noreferrer"> following design</a>.</small></p>
+    </footer>
+
     <!-- scripts -->
+    <script src="/script/zenscroll-min.js" defer></script>
     <script src="./dist/app-bundle.js"></script>
 </body>
 </html>
